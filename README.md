@@ -6,8 +6,17 @@ HL7 FHIR Diagnostic Order
 #### Installation  
 
 ````bash
+# to add hl7 resource schemas and rest routes
 meteor add clinical:hl7-resource-diagnostic-order
+
+# to initialize default data
+INITIALIZE=true meteor
 ````
+
+===============================
+#### Utilities  
+
+If you're working with HL7 FHIR Resources, we recommend using [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en).
 
 ===============================
 #### Conformance Statement  
