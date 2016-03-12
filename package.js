@@ -1,8 +1,8 @@
 Package.describe({
   name: 'clinical:hl7-resource-diagnostic-order',
   version: '0.0.1',
-  summary: '',
-  git: '',
+  summary: 'HL7 FHIR Diagnostic Order',
+  git: 'https://github.com/clinical-meteor/hl7-resource-diagnostic-order',
   documentation: 'README.md'
 });
 
