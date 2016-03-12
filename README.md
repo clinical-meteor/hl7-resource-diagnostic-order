@@ -6,7 +6,7 @@ HL7 FHIR Diagnostic Order
 #### Installation  
 
 ````bash
-meteor add clinical:hl-7-resource-diagnostic-order
+meteor add clinical:hl7-resource-diagnostic-order
 ````
 
 ===============================
