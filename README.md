@@ -12,7 +12,7 @@ meteor add clinical:hl7-resource-diagnostic-order
 # to initialize default data
 INITIALIZE=true meteor
 ````
-pwd
+
 ===============================
 #### Utilities  
 
