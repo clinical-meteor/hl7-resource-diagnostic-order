@@ -21,7 +21,7 @@ If you're working with HL7 FHIR Resources, we recommend using [Postman](https://
 ===============================
 #### Conformance Statement  
 
-The resource in this package implements the FHIR Patient Resource schema provided at  [https://www.hl7.org/fhir/patient.html](https://www.hl7.org/fhir/patient.html).  
+The resource in this package implements the FHIR Patient Resource schema provided at  [https://www.hl7.org/fhir/diagnosticorder.html](https://www.hl7.org/fhir/diagnosticorder.html).  
 
 ===============================
 #### Licensing  
