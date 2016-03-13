@@ -15,6 +15,7 @@ Package.onUse(function(api) {
   api.use('aldeed:collection2@2.9.0');
   api.use('clinical:hl7-resource-datatypes@0.0.1');
   api.use('simple:json-routes@2.1.0');
+  api.use('prime8consulting:meteor-oauth2-server@0.0.2')
 
   // api.use('check', 'server');
   // api.use('meteorhacks:async@1.0.0', 'server');
