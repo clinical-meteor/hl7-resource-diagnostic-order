@@ -1,6 +1,6 @@
 ##clinical:hl7-resource-diagnostic-order
 
-HL7 FHIR Diagnostic Order
+HL7 FHIR Resource - Diagnostic Order
 
 ===============================
 #### Installation  
