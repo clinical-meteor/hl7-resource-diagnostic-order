@@ -17,8 +17,6 @@ Package.onUse(function(api) {
   api.use('simple:json-routes@2.1.0');
   api.use('prime8consulting:meteor-oauth2-server@0.0.2')
 
-  // api.use('check', 'server');
-  // api.use('meteorhacks:async@1.0.0', 'server');
 
   api.addFiles('lib/hl7-resource-diagnostic-order.js');
   api.addFiles('server/rest.js', 'server');
