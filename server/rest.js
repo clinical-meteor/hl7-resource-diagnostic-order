@@ -20,14 +20,14 @@ JsonRoutes.Middleware.use(
 // });
 
 
-JsonRoutes.add("get", "/diagnosticOrder/:id", function (req, res, next) {
-  console.log('GET /diagnosticOrder/' + req.params.id);
+JsonRoutes.add("get", "/fhir/DiagnosticOrder/:id", function (req, res, next) {
+  console.log('GET /fhir/DiagnosticOrder/' + req.params.id);
   //console.log('res', res);
 
   var accessTokenStr = (req.params && req.params.access_token) || (req.query && req.query.access_token);
   var accessToken = oAuth2Server.collections.accessToken.findOne({accessToken: accessTokenStr});
 
-  if (accessToken) {
+  if (accessToken || process.env.NOAUTH) {
     console.log('accessToken', accessToken);
     console.log('accessToken.userId', accessToken.userId);
 
