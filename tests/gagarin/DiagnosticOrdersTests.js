@@ -4,13 +4,13 @@ describe('clinical:hl7-resources-diagnostic-order', function () {
 
   it('DiagnosticOrders should exist on the client', function () {
     return client.execute(function () {
-      expect(DiagnosticOrders).not.to.be.empty;
+      expect(DiagnosticOrders).to.exist;
     });
   });
 
   it('DiagnosticOrders should exist on the server', function () {
     return server.execute(function () {
-      expect(DiagnosticOrders).not.to.be.empty;
+      expect(DiagnosticOrders).to.exist;
     });
   });
 
