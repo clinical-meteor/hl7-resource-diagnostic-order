@@ -1,6 +1,6 @@
 Package.describe({
   name: 'clinical:hl7-resource-diagnostic-order',
-  version: '1.5.0',
+  version: '1.5.3',
   summary: 'HL7 FHIR Resource - Diagnostic Order',
   git: 'https://github.com/clinical-meteor/hl7-resource-diagnostic-order',
   documentation: 'README.md'
@@ -17,12 +17,13 @@ Package.onUse(function (api) {
   api.use('prime8consulting:meteor-oauth2-server@0.0.2');
 
   api.use('clinical:base-model@1.3.5');
-  api.use('clinical:hl7-resource-datatypes@0.4.0');
+  api.use('clinical:hl7-resource-datatypes@0.5.6');
 
   api.addFiles('lib/hl7-resource-diagnostic-order.js');
   api.addFiles('server/rest.js', 'server');
   api.addFiles('server/initialize.js', 'server');
 
-  api.export('DiagnosticOrderSchema');
+  api.export('DiagnosticOrder');
   api.export('DiagnosticOrders');
+  api.export('DiagnosticOrderSchema');
 });
